@@ -1,0 +1,17 @@
+@import "../../../styles/variables.scss";
+
+.app-pagination {
+    // background-color: #fff;
+    .ant-pagination-prev,
+    .ant-pagination-next {
+        color: $primary-text-color;
+
+        a:hover {
+            color: $primary-text-color;
+        }
+    }
+    .ant-pagination-item-active a {
+        color: $white-color !important;
+        background-color: $primary-color;
+     }
+}

@@ -1,0 +1,117 @@
+// all color, text-sizes, border-radius etc  should be initialize here as variables and use them in styling
+// do not write explicitly values.
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+//colors
+$primary-color: #007bff;
+$secondary-color: #55afd5; // not iun use
+$tertiary-color: #e9f3fd; // not iun use
+
+$primary-hover-color: #0091f7;
+
+$primary-text-color: #374151;
+$secondary-text-color: #1e1f21;
+
+$primary-background-color: #fafafa; // use that also for F3F4F6
+$secondary-background-color: #f6f8fb; // table bg-color
+$tertiary-background-color: #ddedff; // active lightblue
+$hover-background-color: #eff6ff;
+
+$input-bg-color: #f5f6f9;
+$black-color: #000000;
+$white-color: #ffffff;
+$white-opacity-color: #ffffffc2;
+
+$light-blue-color: #55afd5; // not iun use
+$grey-color: #c5c7d0;
+$light-grey-color: #e6e9ef;
+$chilly-grey-color: #979797; // not iun use
+$orange-color: #fa7901; // not iun use
+$transparent-blue-color: #7cb1ff; // not iun use
+
+$alert-success-color: #1ab900;
+$bg-alert-success-color: #e5fcda;
+$alert-error-color: #b51629;
+$bg-alert-error-color: #fee5d4;
+$alert-warning-color: #eab308;
+$bg-alert-warning-color: #fefbe0;
+$alert-info-color: #007bff;
+$bg-alert-info-color: #e4f1ff;
+
+$error-color: #e63946;
+$success-color: #52c41a;
+$bg-error-color: #ffeeee;
+$bg-success-color: #eef9f1;
+$warning-color: #faad14;
+$disabled-color: #e6e9ef66;
+$info-color: #1890ff;
+$danger-color: #ff3f3f; // not iun use
+
+$grey-linear-gradient: linear-gradient(243.32deg, #efeffe 7.24%, #f0efff 95.61%); // not iun use
+// need to remove
+$solitude-color: #e9effd;
+
+//font-size
+$heading-48: 48px;
+$heading-46: 46px;
+$heading-42: 42px; // not iun use
+
+$primary-heading: 28px;
+$secondary-heading: 24px;
+$tertiary-heading: 20px;
+
+$heading-22: 22px; // not iun use
+$heading-30: 30px; // not iun use
+
+$primary-title: 16px;
+$secondary-title: 14px;
+$tertiary-title: 12px;
+
+$title-15: 15px;
+$title-13: 13px;
+$title-11: 11px;
+$title-10: 10px;
+$title-8: 8px;
+$title-9: 9px;
+
+//border-radius
+$border-radius-2: 2px;
+$border-radius-10: 10px;
+$border-radius-12: 12px;
+$border-radius-16: 16px;
+$border-radius-24: 24px;
+$border-radius-59: 59px;
+$border-radius-rounded: 50%;
+
+$border-radius-5: 5px;
+$border-radius-6: 6px;
+$border-radius-8: 8px;
+$border-radius-4: 4px;
+$border-radius-12: 12px;
+$border-radius-15: 15px;
+$border-radius-20: 20px;
+
+//font-weight
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+$font-weight-800: 800;
+$font-weight-900: 900;
+
+$box-shadow-primary: 0px 2px 12px rgba(0, 0, 0, 0.12);
+$box-shadow-secondary: 0px 0px 5px 4px rgba(0, 0, 0, 0.07);
+$box-shadow-tertiary-inset: inset 0px 0px 3px 2px #ebedfa;
+$box-shadow-tabs: 0px 0px 4px rgba(0, 0, 0, 0.12);
+$box-shadow-date-picker: 0px 10px 24px rgba(54, 110, 194, 0.1);
+
+//font-family
+$font-family-montserrat: "Montserrat", "Roboto", "sans-serif";
+$font-family-roboto: "Roboto", "sans-serif", "Montserrat";
+
+//need to delete
+// $alertgreen-color:#000;
+// $alertred-color:#fff;
+// $alert-text-color:#F7D5D8;
+//delete

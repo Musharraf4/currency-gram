@@ -1,0 +1,13 @@
+@import "../../../styles/variables";
+
+.make-active {
+  &.active {
+    background-color: $primary-color !important;
+    & .text-class {
+      color: $white-color !important;
+    }
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+}

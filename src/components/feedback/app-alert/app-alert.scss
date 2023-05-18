@@ -1,0 +1,46 @@
+@import "../../../styles/variables";
+
+.alert-message-wrapper {
+  justify-content: space-between;
+  padding: 15px 20px;
+  max-width: 250px;
+  z-index: 9999;
+
+  &-flex-grow {
+    flex-grow: 1;
+  }
+}
+
+.ant-alert-success {
+  background-color: $bg-alert-success-color !important;
+  color: $alert-success-color !important;
+  font-weight: $font-weight-400 !important;
+  .ant-alert-icon {
+    font-size: 1.5rem !important;
+  }
+}
+
+.ant-alert-info {
+  background-color: $bg-alert-info-color !important;
+  color: $alert-info-color !important;
+  font-weight: $font-weight-400 !important;
+  .ant-alert-icon {
+    font-size: 1.5rem !important;
+  }
+}
+.ant-alert-error {
+  background-color: $bg-alert-error-color !important;
+  color: $alert-error-color !important;
+  font-weight: $font-weight-400 !important;
+  .ant-alert-icon {
+    font-size: 1.5rem !important;
+  }
+}
+.ant-alert-warning {
+  background-color: $bg-alert-warning-color !important;
+  color: $alert-warning-color !important;
+  font-weight: $font-weight-400 !important;
+  .ant-alert-icon {
+    font-size: 1.5rem !important;
+  }
+}

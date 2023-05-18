@@ -1,0 +1,14 @@
+export const HOMEPATH = "/home";
+export const PERSONALPATH = "/personal";
+export const BUSINESSPATH = "/business";
+export const CONTACTUSPATH = "/contact-us";
+export const BLOGPATH = "/blog";
+export const RECEIVEGIFTPATH = "/receive-gift";
+export const RECEIVELINKPATH = "/receive-link";
+export const COMMUNITYPATH = "/community";
+export const COMMUNITYPARAM = "community";
+export const COMMUNITYTOPICSQUESTIONSPATH = ":topics";
+export const COMMUNITYMYQUESTIONPATH = "my-question";
+export const COMMUNITYSAVEQUESTIONPATH = "save-question";
+export const COMMUNITYQUESTIONSDETAILPATH = "questions/:id";
+export const COMMUNITYQUESTIONSPARAM = "questions";

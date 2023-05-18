@@ -1,0 +1,12 @@
+@import "../../../styles/variables";
+
+.inputStyle {
+  width: 50% !important;
+  height: 35px !important;
+  border-radius: 2px !important;
+  border: 0px !important;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+  background: $secondary-background-color !important;
+  font-size: 16px !important;
+}

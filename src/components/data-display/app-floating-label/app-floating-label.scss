@@ -1,0 +1,22 @@
+@import "../../../styles/variables.scss";
+
+.float-label {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 0.875rem !important;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  left: 12px;
+  top: 10.5px;
+  transition: 0.2s ease all;
+}
+
+.label-float {
+  top: 0px;
+  margin-bottom: 4px !important;
+  font-size: 0.625rem !important;
+}

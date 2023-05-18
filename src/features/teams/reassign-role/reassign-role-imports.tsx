@@ -1,0 +1,11 @@
+import {
+  SLASHPATH,
+  TEAMROLEDETAILSPARAM,
+  TEAMSMANAGEMENTPATH,
+} from "../../../constants/routes-constant";
+
+export const REASSIGNROLEIMPORT = {
+  SLASHPATH,
+  TEAMROLEDETAILSPARAM,
+  TEAMSMANAGEMENTPATH,
+};

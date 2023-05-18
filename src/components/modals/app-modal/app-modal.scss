@@ -1,0 +1,29 @@
+@import "../../../styles/variables";
+
+.app-modal {
+    .app-modal-header-icon {
+        border-radius: 30px;
+    }
+    .app-modal-paid {
+        color: $grey-color;
+        border: 1px solid $grey-color;
+
+
+        // &::before {
+        //     content: "";
+        //     border: 1px solid $grey-color;
+        //     width: 80px;
+        //     margin-right: 10px;
+        // }
+
+        // &::after {
+        //     content: "";
+        //     border: 1px solid $grey-color;
+        //     width: 80px;
+        //     margin-left: 10px;
+        // }
+    }
+    .app-modal-user-icon{
+        background-color: $primary-background-color;
+    }
+}

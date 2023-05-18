@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.header-dropdown{
+    padding-right: 10px;
+}
+.menu-active {
+    color: #3F2856;
+    &.active{
+        color: $primary-color;
+        border-bottom:3px solid $primary-color;
+    }
+}

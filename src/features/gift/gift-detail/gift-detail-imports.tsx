@@ -1,0 +1,7 @@
+import { MOREPATH, SELECTGIFTRECIPIENTPATH, SLASHPATH } from "../../../constants/routes-constant";
+
+export const GIFTDETAILIMPORTS = {
+  MOREPATH,
+  SELECTGIFTRECIPIENTPATH,
+  SLASHPATH,
+};

@@ -1,0 +1,22 @@
+@import "../../../styles/variables";
+
+.sidebar-community-menu-links {
+  &:hover {
+    background-color: $hover-background-color;
+    .sidebar-community-icon{
+
+      color: $primary-color !important;
+    }
+  }
+  &.active {
+    background-color: $hover-background-color !important;
+    .sidebar-community-icon{
+
+      color: $primary-color !important;
+    }
+
+    .sidebar-community-icon {
+      // filter: brightness(0) invert(1);
+    }
+  }
+}

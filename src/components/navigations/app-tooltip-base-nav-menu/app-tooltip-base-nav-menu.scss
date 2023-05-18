@@ -1,0 +1,14 @@
+@import "../../../styles/variables";
+
+    .sidebar-menu-links{
+        &:hover{
+            background-color: $hover-background-color;
+        }
+        &.active{
+            background-color: $primary-color !important;
+            .sidebar-icon {
+                filter: brightness(0) invert(1);
+            }
+        }
+       
+    }

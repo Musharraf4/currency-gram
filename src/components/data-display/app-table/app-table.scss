@@ -1,0 +1,24 @@
+@import "../../../styles/variables";
+
+.my-table {
+  .ant-table-thead {
+    tr,
+    th {
+      background-color: $secondary-background-color !important;
+    }
+
+    .ant-table-cell {
+      &::before {
+        background-color: $secondary-background-color !important;
+      }
+    }
+  }
+
+  // .ant-table-content {
+  //   tr {
+  //     td {
+  //       // color: $primary-text-color !important;
+  //     }
+  //   }
+  // }
+}
